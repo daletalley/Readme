@@ -8,7 +8,18 @@ const mkdirAsync = util.promisify(fs.mkdir);
 const accessSync = util.promisify(fs.accessSync);
 
 // TODO: Create an array of questions for user input
-const questions = [ {
+const questions = [ 
+  {
+    type: "input",
+    name: "username",
+    message: "Please enter your GitHub username: "
+  },
+  {
+    type: "input",
+    name: "email",
+    message: "Please enter your email: "
+  },
+  {
     type: "input",
     name: "projectTitle",
     message: "What is the project title?",
@@ -22,6 +33,12 @@ const questions = [ {
     type: "input",
     name: "installation",
     message: "Describe the installation process if any: ",
+  },
+  {
+      type: "input",
+      name: "dependencies",
+      message: "What command should be run to install dependencies?",
+      default: "npm i",
   },
   {
     type: "input",
@@ -45,17 +62,18 @@ const questions = [ {
   {
     type: "input",
     name: "contributing",
-    message: "Who are the contributors of this project?"
+    message: "What does the user need to know about contributing to the repo?"
   },
   {
     type: "input",
     name: "tests",
-    message: "Is there a test included?"
+    message: "What command should be run to run tests?",
+    default: "npm test"
   },
   {
     type: "input",
     name: "questions",
-    message: "What do I do if I have an issue?"
+    message: "What do I do if I have an issue with the repository?"
   },
   {
     type: "input",
