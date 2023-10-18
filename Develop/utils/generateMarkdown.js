@@ -66,9 +66,14 @@ This project is licensed under the ${licenseLink} - ![License Badge](${licenseBa
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  const licenseSection = renderLicenseSection(data.license);
 
+  const readmeContent = `# ${data.title}
+
+${licenseSection}
 `;
+
+  return readmeContent;
 }
 
-module.exports = generateMarkdown;
+module.exports = { generateMarkdown };
