@@ -1,8 +1,9 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// Function that returns a license badge based on which license is passed in
+// If there is no license, an empty string is returned
 function renderLicenseBadge(license) {
   let licenseBadge = "";
 
+  // Check which license was passed in and assign the corresponding badge
   if (license === "MIT") {
     licenseBadge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
   } else if (license === "Apache") {
@@ -20,7 +21,8 @@ function renderLicenseBadge(license) {
 
 // Function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.projectTitle}
+  return `
+# ${data.projectTitle}
 
 ## Description
 
@@ -71,4 +73,5 @@ If you have any questions, please contact me at ${data.email}. You can also open
 `;
 }
 
+// Export the generateMarkdown function so it can be used in other files
 module.exports = { generateMarkdown };
