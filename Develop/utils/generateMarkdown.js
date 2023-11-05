@@ -1,16 +1,6 @@
-// generateMarkdown.js file that contains the markdown for the README file. This file is used by index.js to generate the README file.
-// The generateMarkdown function takes in a single argument, an object containing user responses based on the inquirer prompts, and returns a string containing the markdown content for the README file.
-// The generateMarkdown function is exported so it can be used in index.js.
-// The renderLicenseBadge function is exported so it can be used in index.js.
-// The renderLicenseLink function is exported so it can be used in index.js.
-// The renderLicenseSection function is exported so it can be used in index.js.
-
-// Function that returns a license badge based on which license is passed in
-// If there is no license, an empty string is returned
 function renderLicenseBadge(license) {
   let licenseBadge = "";
 
-  // Check which license was passed in and assign the corresponding badge
   if (license === "MIT") {
     licenseBadge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
   } else if (license === "Apache") {
@@ -25,9 +15,9 @@ function renderLicenseBadge(license) {
 
   return licenseBadge;
 }
-
-// Function to generate markdown for README
 function generateMarkdown(data) {
+  const licenseBadge = renderLicenseBadge(data.license);
+
   return `
 # ${data.projectTitle}
 
@@ -46,7 +36,7 @@ ${data.description}
 
 ## License
 
-${renderLicenseBadge(data.license)}
+${licenseBadge}
 
 This project is licensed under the ${data.license} license.
 
@@ -80,5 +70,4 @@ If you have any questions, please contact me at ${data.email}. You can also open
 `;
 }
 
-// Export the generateMarkdown function so it can be used in other files
 module.exports = { generateMarkdown };
