@@ -1,8 +1,12 @@
+// index.js is the entry point for the application
+// The application will prompt the user for information about their application repository
+// Then a high-quality, professional README.md is generated with the title of the project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+
 // Import required modules
 const fs = require("fs");
 const util = require("util");
 const inquirer = require("inquirer");
-const { generateMarkdown } = require('./utils/generateMarkdown');
+const { generateMarkdown } = require('./generateMarkdown');
 
 // Promisify required functions
 const writeFileAsync = util.promisify(fs.writeFile);

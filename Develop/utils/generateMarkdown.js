@@ -1,3 +1,10 @@
+// generateMarkdown.js file that contains the markdown for the README file. This file is used by index.js to generate the README file.
+// The generateMarkdown function takes in a single argument, an object containing user responses based on the inquirer prompts, and returns a string containing the markdown content for the README file.
+// The generateMarkdown function is exported so it can be used in index.js.
+// The renderLicenseBadge function is exported so it can be used in index.js.
+// The renderLicenseLink function is exported so it can be used in index.js.
+// The renderLicenseSection function is exported so it can be used in index.js.
+
 // Function that returns a license badge based on which license is passed in
 // If there is no license, an empty string is returned
 function renderLicenseBadge(license) {

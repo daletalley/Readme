@@ -1,9 +1,9 @@
 
-# 
+# title
 
 ## Description
 
-
+desc
 
 ## Table of Contents
 
@@ -30,20 +30,20 @@ npm i
 
 ## Usage
 
-
+usafe
 
 ## Contributing
 
-
+contrib
 
 ## Tests
 
 To run tests, run the following command:
 
 ```
-npm test
+test
 ```
 
 ## Questions
 
-If you have any questions, please contact me at . You can also open an issue on the [GitHub repository](https://github.com//).
+If you have any questions, please contact me at dtalley32. You can also open an issue on the [GitHub repository](https://github.com/daletalley/title).
