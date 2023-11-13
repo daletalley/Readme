@@ -32,3 +32,8 @@ This project creates a professional README file for the user's projects. Users a
 ## Questions
 
 If you have any questions, please contact me at dtalley32@icloud.com. You can also open an issue on the [GitHub repository](https://github.com/daletalley/README Generator).
+
+## Video Submission
+
+https://github.com/daletalley/readme/assets/134656450/1c4413af-492b-45fe-b9d1-5ee285ec6ab1
+
