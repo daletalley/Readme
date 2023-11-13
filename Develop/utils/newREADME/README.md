@@ -1,9 +1,9 @@
 
-# readme gen
+# readme generator
 
 ## Description
 
-project descrip
+generate readme files
 
 ## Table of Contents
 
@@ -30,7 +30,7 @@ npm i
 
 ## Usage
 
-usages 
+use to generate readme
 
 ## Contributing
 
@@ -46,4 +46,4 @@ npm test
 
 ## Questions
 
-If you have any questions, please contact me at dtalley32@icloud.com. You can also open an issue on the [GitHub repository](https://github.com/daletalley/readme gen).
+If you have any questions, please contact me at dtalley32@icloud.com. You can also open an issue on the [GitHub repository](https://github.com/daletalley/readme generator).
