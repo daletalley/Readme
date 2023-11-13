@@ -1,9 +1,9 @@
 
-# readme project
+# readme gen
 
 ## Description
 
-readme description
+project descrip
 
 ## Table of Contents
 
@@ -30,11 +30,11 @@ npm i
 
 ## Usage
 
-readme usage
+usages 
 
 ## Contributing
 
-
+dale
 
 ## Tests
 
@@ -46,4 +46,4 @@ npm test
 
 ## Questions
 
-If you have any questions, please contact me at dtalley32@icloud.com. You can also open an issue on the [GitHub repository](https://github.com/daletalley/readme project).
+If you have any questions, please contact me at dtalley32@icloud.com. You can also open an issue on the [GitHub repository](https://github.com/daletalley/readme gen).

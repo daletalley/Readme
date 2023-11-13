@@ -75,12 +75,7 @@ const questions = [
     name: "tests",
     message: "Is there a test included?",
     default: "npm test",
-  },
-  {
-    type: "input",
-    name: "questions",
-    message: "What do I do if I have an issue?",
-  },
+  }
 ];
 
 // Function to write README file
