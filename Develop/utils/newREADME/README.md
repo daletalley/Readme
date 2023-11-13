@@ -1,9 +1,9 @@
 
-# readme generator
+# README Generator
 
 ## Description
 
-generate readme files
+I created this project to showcase my Node.js skills. By using the FS module, I wrote files that included user input. I also used the "inquirer" package to collect user input in the terminal. Throughout the project, I learned how to inject specific text from a JavaScript file into different file types, like markdown files. I also discovered the variations between file types, such as injecting links without "a href" tags in markdown. Additionally, I learned how to import functions between JavaScript files for better code organization. I demonstrated my ability to initialize projects and install packages using "npm init" and "npm install".
 
 ## Table of Contents
 
@@ -16,9 +16,9 @@ generate readme files
 
 ## License
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This project is licensed under the Apache license.
+This project is licensed under the MIT license.
 
 ## Installation
 
@@ -30,20 +30,20 @@ npm i
 
 ## Usage
 
-use to generate readme
+This project creates a professional README file for the user's projects. Users answer a series of questions about their project, and a README file is generated based on their responses. The file is named README.md in the newREADME folder.
 
 ## Contributing
 
-dale
+Dale Talley III
 
 ## Tests
 
 To run tests, run the following command:
 
 ```
-npm test
+n/a
 ```
 
 ## Questions
 
-If you have any questions, please contact me at dtalley32@icloud.com. You can also open an issue on the [GitHub repository](https://github.com/daletalley/readme generator).
+If you have any questions, please contact me at dtalley32@icloud.com. You can also open an issue on the [GitHub repository](https://github.com/daletalley/README Generator).
